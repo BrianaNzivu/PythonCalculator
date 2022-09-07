@@ -31,7 +31,7 @@ option = input('Choose an option:')
 x = float(input('Enter the first number'))
 y = float(input('Enter the second number'))
 
-# Performs operations
+# Performs operations based on the options selected
 if option == '1':
     print(Add(x, y))
 elif option == '2':
